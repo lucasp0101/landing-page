@@ -4,6 +4,7 @@ body {
     margin: 0;
 }
 
+/* HEADER*/
 #index-header {
     /*Style*/
     background-color: rgb(20, 46, 3);
@@ -60,4 +61,38 @@ body {
     width: 60px;
     height: auto;
     filter: invert(100%);
+}
+
+/* Upper info */
+#index-upper-info {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#index-upper-info > ul {
+    display: flex;
+    justify-content: center;
+    align-content: baseline;
+    list-style-type: none;
+    margin: 0;
+    margin-top: 32px;
+    padding: 0;
+    width: 70%;
+}
+
+#index-upper-info > ul > li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+#index-upper-info > ul > li > img {
+    width: 75%;
+    height: auto;
+    border: 4px solid rgb(221, 149, 55);
 }
