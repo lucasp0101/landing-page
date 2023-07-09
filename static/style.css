@@ -28,6 +28,13 @@ body {
     justify-items: flex-start;
 }
 
+#index-header-desc > button {
+    background-color: rgb(221, 149, 55);
+    border: none;
+    border-radius: 4px;
+    padding: 8px 24px;
+}
+
 #index-header-desc > h1 {
     color: rgb(221, 149, 55);
 }
@@ -62,6 +69,8 @@ body {
     height: auto;
     filter: invert(100%);
 }
+
+
 
 /* Upper info */
 #index-upper-info {
