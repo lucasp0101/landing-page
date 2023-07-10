@@ -32,11 +32,18 @@ body {
     background-color: rgb(221, 149, 55);
     border: none;
     border-radius: 4px;
+    color: rgb(20, 46, 3);
     padding: 8px 24px;
 }
 
 #index-header-desc > h1 {
     color: rgb(221, 149, 55);
+}
+
+#index-header-desc > p> a {
+    font-weight: bold;
+    color: rgb(221, 149, 55);
+    text-decoration: none;
 }
 
 #index-header-right {
@@ -79,6 +86,12 @@ body {
     flex-direction: column;
     align-items: center;
     margin: 64px 0;
+    color: rgb(20, 46, 3);
+}
+
+#index-upper-info > p {
+    font-size: 24px;
+    font-weight: bold;
 }
 
 #index-upper-info > ul {
@@ -109,6 +122,11 @@ body {
     border: 4px solid rgb(221, 149, 55);
 }
 
+#index-upper-info > ul > li > a {
+    text-decoration: none;
+    color: rgb(20, 46, 3);
+}
+
 /* MIDDLE INFO*/
 #index-middle-info {
     background-color: lightgoldenrodyellow;
@@ -118,6 +136,7 @@ body {
     align-items: center;
     margin: 32px 0;
     padding: 32px 0;
+    color: rgb(20, 46, 3);
 }
 
 #index-quote {
@@ -137,6 +156,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 64px 0;
+    color: rgb(20, 46, 3);
 }
 
 #index-lower-content {
@@ -156,9 +176,17 @@ body {
 
 #index-lower-content > button {
     background-color: rgb(221, 149, 55);
-    border: 2px solid black;
-    width: 128px;
-    height: 24px;
+    color: rgb(20, 46, 3);
+    font-size: 16px;
+    border: 2px solid rgb(20, 46, 3);
+    width: 200px;
+    height: 36px;
+}
+
+#index-lower-content > button:hover {
+    text-decoration: none;
+    color: lightgoldenrodyellow;
+    border-color: lightgoldenrodyellow;
 }
 
 /* FOOTER */
