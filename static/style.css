@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* HEADER*/
@@ -129,3 +130,38 @@ body {
 }
 
 /* BOTTOM INFO*/
+#index-lower-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0;
+}
+
+#index-lower-content {
+    background-color: rgb(221, 149, 55);
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 32px;
+    border-radius: 16px;
+}
+
+#lower-info-message {
+    font-weight: 900;
+}
+
+/* FOOTER */
+#footer {
+    background-color: rgb(20, 46, 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+    color: burlywood;
+}
+
+#footer > a {
+    text-decoration: none;
+    color: burlywood;
+}
