@@ -10,8 +10,7 @@ body {
     /*Style*/
     background-color: rgb(20, 46, 3);
     display: flex;
-    justify-content: center;
-    gap: 256px;
+    justify-content: space-around;
     color: burlywood;
 }
 
@@ -72,7 +71,6 @@ body {
 }
 
 
-
 /* Upper info */
 #index-upper-info {
     background-color: white;
@@ -80,6 +78,7 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin: 64px 0;
 }
 
 #index-upper-info > ul {
@@ -87,10 +86,11 @@ body {
     justify-content: center;
     align-content: baseline;
     list-style-type: none;
-    margin: 0;
-    margin-top: 32px;
     padding: 0;
-    width: 70%;
+    width: 80%;
+    margin: 32px 0;
+    gap: 32px;
+    flex-wrap: wrap;
 }
 
 #index-upper-info > ul > li {
@@ -99,6 +99,8 @@ body {
     align-items: center;
     justify-content: space-between;
     gap: 16px;
+    width: 270px;
+    flex-shrink: 0;
 }
 
 #index-upper-info > ul > li > img {
@@ -134,7 +136,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 32px 0;
+    margin: 64px 0;
 }
 
 #index-lower-content {
@@ -143,12 +145,20 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 32px;
     border-radius: 16px;
+    height: 128px;
 }
 
 #lower-info-message {
     font-weight: 900;
+    font-size: 20px;
+}
+
+#index-lower-content > button {
+    background-color: rgb(221, 149, 55);
+    border: 2px solid black;
+    width: 128px;
+    height: 24px;
 }
 
 /* FOOTER */
